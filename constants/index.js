@@ -1,0 +1,257 @@
+const users = [
+    {
+    "id": 1,
+    "first_name": "Milka",
+    "last_name": "Wane",
+    "email": "mwane0@topsy.com"
+}, {
+    "id": 2,
+    "first_name": "Teodoor",
+    "last_name": "Pawlik",
+    "email": "tpawlik1@tripod.com"
+}, {
+    "id": 3,
+    "first_name": "Rachele",
+    "last_name": "Hatto",
+    "email": "rhatto2@go.com"
+}, {
+    "id": 4,
+    "first_name": "Francene",
+    "last_name": "Thomasson",
+    "email": "fthomasson3@yandex.ru"
+}, {
+    "id": 5,
+    "first_name": "Carroll",
+    "last_name": "Teissier",
+    "email": "cteissier4@webs.com"
+}, {
+    "id": 6,
+    "first_name": "Florri",
+    "last_name": "Maharey",
+    "email": "fmaharey5@ox.ac.uk"
+}, {
+    "id": 7,
+    "first_name": "Peta",
+    "last_name": "Maylor",
+    "email": "pmaylor6@vistaprint.com"
+}, {
+    "id": 8,
+    "first_name": "Andrey",
+    "last_name": "Loud",
+    "email": "aloud7@github.io"
+}, {
+    "id": 9,
+    "first_name": "Kylen",
+    "last_name": "Spinney",
+    "email": "kspinney8@about.com"
+}, {
+    "id": 10,
+    "first_name": "Janice",
+    "last_name": "Barten",
+    "email": "jbarten9@php.net"
+}, {
+    "id": 11,
+    "first_name": "Ladonna",
+    "last_name": "Eskell",
+    "email": "leskella@biglobe.ne.jp"
+}, {
+    "id": 12,
+    "first_name": "Witty",
+    "last_name": "Chavey",
+    "email": "wchaveyb@usa.gov"
+}, {
+    "id": 13,
+    "first_name": "Carl",
+    "last_name": "Hannibal",
+    "email": "channibalc@aol.com"
+}, {
+    "id": 14,
+    "first_name": "Lennard",
+    "last_name": "Everall",
+    "email": "leveralld@prweb.com"
+}, {
+    "id": 15,
+    "first_name": "Charisse",
+    "last_name": "Guion",
+    "email": "cguione@google.com.au"
+}, {
+    "id": 16,
+    "first_name": "Hubey",
+    "last_name": "Ashelford",
+    "email": "hashelfordf@com.com"
+}, {
+    "id": 17,
+    "first_name": "Floyd",
+    "last_name": "Sprigings",
+    "email": "fsprigingsg@omniture.com"
+}, {
+    "id": 18,
+    "first_name": "Fredric",
+    "last_name": "Pryke",
+    "email": "fprykeh@artisteer.com"
+}, {
+    "id": 19,
+    "first_name": "Reamonn",
+    "last_name": "Hillatt",
+    "email": "rhillatti@chicagotribune.com"
+}, {
+    "id": 20,
+    "first_name": "Karole",
+    "last_name": "Fittis",
+    "email": "kfittisj@51.la"
+}, {
+    "id": 21,
+    "first_name": "Fiann",
+    "last_name": "Penhallurick",
+    "email": "fpenhallurickk@1688.com"
+}, {
+    "id": 22,
+    "first_name": "Gale",
+    "last_name": "Mannion",
+    "email": "gmannionl@drupal.org"
+}, {
+    "id": 23,
+    "first_name": "Irv",
+    "last_name": "Spurret",
+    "email": "ispurretm@g.co"
+}, {
+    "id": 24,
+    "first_name": "Ellerey",
+    "last_name": "Santoro",
+    "email": "esantoron@drupal.org"
+}, {
+    "id": 25,
+    "first_name": "Cindra",
+    "last_name": "Agge",
+    "email": "caggeo@imgur.com"
+}, {
+    "id": 26,
+    "first_name": "Elmira",
+    "last_name": "Minghetti",
+    "email": "eminghettip@diigo.com"
+}, {
+    "id": 27,
+    "first_name": "Corrie",
+    "last_name": "Pechell",
+    "email": "cpechellq@engadget.com"
+}, {
+    "id": 28,
+    "first_name": "Lil",
+    "last_name": "Iacovelli",
+    "email": "liacovellir@linkedin.com"
+}, {
+    "id": 29,
+    "first_name": "Roger",
+    "last_name": "Nudde",
+    "email": "rnuddes@salon.com"
+}, {
+    "id": 30,
+    "first_name": "Cherish",
+    "last_name": "Gillatt",
+    "email": "cgillattt@cdbaby.com"
+}, {
+    "id": 31,
+    "first_name": "Nicko",
+    "last_name": "Hindge",
+    "email": "nhindgeu@redcross.org"
+}, {
+    "id": 32,
+    "first_name": "Eada",
+    "last_name": "Lethieulier",
+    "email": "elethieulierv@desdev.cn"
+}, {
+    "id": 33,
+    "first_name": "Nichol",
+    "last_name": "Corfield",
+    "email": "ncorfieldw@youku.com"
+}, {
+    "id": 34,
+    "first_name": "Berkeley",
+    "last_name": "Bogies",
+    "email": "bbogiesx@xinhuanet.com"
+}, {
+    "id": 35,
+    "first_name": "Reggy",
+    "last_name": "Conew",
+    "email": "rconewy@theglobeandmail.com"
+}, {
+    "id": 36,
+    "first_name": "Amitie",
+    "last_name": "McJarrow",
+    "email": "amcjarrowz@freewebs.com"
+}, {
+    "id": 37,
+    "first_name": "Ronnie",
+    "last_name": "Eim",
+    "email": "reim10@nps.gov"
+}, {
+    "id": 38,
+    "first_name": "Kristina",
+    "last_name": "Duesberry",
+    "email": "kduesberry11@cargocollective.com"
+}, {
+    "id": 39,
+    "first_name": "Oby",
+    "last_name": "Nourse",
+    "email": "onourse12@edublogs.org"
+}, {
+    "id": 40,
+    "first_name": "Susan",
+    "last_name": "Plank",
+    "email": "splank13@sourceforge.net"
+}, {
+    "id": 41,
+    "first_name": "Jolie",
+    "last_name": "Primarolo",
+    "email": "jprimarolo14@vimeo.com"
+}, {
+    "id": 42,
+    "first_name": "Nerti",
+    "last_name": "Presnall",
+    "email": "npresnall15@123-reg.co.uk"
+}, {
+    "id": 43,
+    "first_name": "Esma",
+    "last_name": "Thebeaud",
+    "email": "ethebeaud16@homestead.com"
+}, {
+    "id": 44,
+    "first_name": "Trace",
+    "last_name": "Tottie",
+    "email": "ttottie17@state.tx.us"
+}, {
+    "id": 45,
+    "first_name": "Richardo",
+    "last_name": "Chapleo",
+    "email": "rchapleo18@mapy.cz"
+}, {
+    "id": 46,
+    "first_name": "Rafaello",
+    "last_name": "Dewdney",
+    "email": "rdewdney19@latimes.com"
+}, {
+    "id": 47,
+    "first_name": "Leicester",
+    "last_name": "Bloxham",
+    "email": "lbloxham1a@cbsnews.com"
+}, {
+    "id": 48,
+    "first_name": "Daron",
+    "last_name": "Breslane",
+    "email": "dbreslane1b@nytimes.com"
+}, {
+    "id": 49,
+    "first_name": "Odessa",
+    "last_name": "Bentame",
+    "email": "obentame1c@marketwatch.com"
+}, {
+    "id": 50,
+    "first_name": "Brian",
+    "last_name": "Follit",
+    "email": "bfollit1d@shinystat.com"
+}]
+
+module.exports = {
+    PORT: process.env.PORT,
+    users
+}
